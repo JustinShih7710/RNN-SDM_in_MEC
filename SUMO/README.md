@@ -10,13 +10,13 @@ This directory contain two directory, [new](./new) and [old](./old).
 
 The old part uses sumo.exe to generate all simulation data.First step, we need to change [osm.sumocfg](./old/osm.sumocfg). Second, we need to open this with sumo. You can also use command line:
 
-```
+```bash
 run.bat
 ```
 
 After we have [fulloutput.xml](./old/fulloutput.xml). We need to use the tools SUMO provided and named [xml2csv.py](./old/xml2csv.py), you need to run it with command line:
 
-```
+```bash
 python xml2csv.py fulloutput.xml -o fulloutput.csv
 ```
 
