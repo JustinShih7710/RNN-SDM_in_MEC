@@ -101,7 +101,7 @@ typing_extensions==4.7.1
 tzdata==2023.3
 urllib3 @ file:///C:/b/abs_3ce53vrdcr/croot/urllib3_1680254693505/work
 wcwidth @ file:///Users/ktietz/demo/mc3/conda-bld/wcwidth_1629357192024/work
-Werkzeug==2.3.6
+Werkzeug==3.0.3
 win-inet-pton @ file:///C:/ci_310/win_inet_pton_1642658466512/work
 wincertstore==0.2
 wrapt==1.15.0
