@@ -3,7 +3,7 @@ import pandas as pd
 dtypes = {'data_timestep': int, 'vehicle_id': str, 'vehicle_x': float, 'vehicle_y': float}
 veh = pd.read_csv('veh.csv', dtype=dtypes)
 
-MEC_server = pd.read_json('MEC_server.json')
+MEC_server = pd.read_json('MEC_server.json', orient='table')
 
 rows = []
 for timestep in range(274, 899, 1):

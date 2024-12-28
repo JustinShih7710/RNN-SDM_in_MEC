@@ -7,7 +7,7 @@ veh = pd.read_csv('veh.csv', dtype=dtypes)
 dtypes = {'data_timestep': int, 'mec_id': str, 'veh_id': str, 'distance': float}
 timeslot_mec_content = pd.read_csv('timeslot_mec_content.csv', dtype=dtypes)
 
-MEC_server = pd.read_json('MEC_server.json')
+MEC_server = pd.read_json('MEC_server.json', orient='table')
 MEC_id = 'm3933'
 rows = []
 for i in range(274, 899, 1):

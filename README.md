@@ -10,7 +10,7 @@ https://hdl.handle.net/11296/2vk626
 The `requirements.txt` file should list all Python libraries that your notebooks
 depend on, and they will be installed using:
 
-```bash
+```
 pip install -r requirements.txt
 ```
 
@@ -18,12 +18,13 @@ pip install -r requirements.txt
 
 ```markdown
 RNN-SDM_in_MEC/
-├── RNN/
-│ ├──old/
-│ ├──new/
-├── SUMO/
-│ ├──old/
-│ ├──new/
+├─RNN
+│  ├─new
+│  └─old
+├─Simu5G
+└─SUMO
+    ├─new
+    └─old
 ```
 
 ## Contributing
